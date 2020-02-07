@@ -1,0 +1,26 @@
+
+
+.container-content-navigation{
+    margin: 30px 0;
+}
+.container-search-section{
+    margin: 50px 0 0 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.button{
+    padding: 4px;
+    color: #ffffff;
+    background-color: #041333;
+    width: 90px;
+    border-radius: 5px;
+    height: 30px;
+    text-transform: uppercase;
+}
+input#articleName {
+    height: 21px;
+    padding: 3px;
+    width: 67%;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Wikimedia - Article Search</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="container-title">Wikimedia - Article Search</h2>
+        <div class="container-search-section">
+            <form >
+                <label for="articleName" class="label">Article Name</label>
+                <input type="text" name="articleName" id="articleName"placeholder="Enter an Article Name">
+                <select>
+                    <option value="en">EN</option>
+                    <option value="af">AF</option>
+                    <option value="am">AM</option>
+                    <option value="ar">AR</option>
+                    <option value="ast">AST</option>
+                    <option value="ca">CA</option>
+                    <option value="cy">CY</option>
+                    <option value="da">DA</option>
+                    <option value="de">DE</option>
+
+                  </select>
+
+                <input id="submitButton" type="submit" value="Fetch" class="button" onclick="fetchMetadata()">
+            </form>
+        </div>
+        <div class="container-content-navigation">
+            Navigation Section
+        </div>
+        <div class="container-main-content">
+            Main Content 
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
