@@ -24,3 +24,9 @@ input#articleName {
     padding: 3px;
     width: 67%;
 }
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}

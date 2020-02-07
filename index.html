@@ -11,10 +11,10 @@
     <div class="container">
         <h2 class="container-title">Wikimedia - Article Search</h2>
         <div class="container-search-section">
-            <form >
+            <form id="search" >
                 <label for="articleName" class="label">Article Name</label>
                 <input type="text" name="articleName" id="articleName"placeholder="Enter an Article Name">
-                <select>
+                <select id="lang">
                     <option value="en">EN</option>
                     <option value="af">AF</option>
                     <option value="am">AM</option>
@@ -27,16 +27,18 @@
 
                   </select>
 
-                <input id="submitButton" type="submit" value="Fetch" class="button" onclick="fetchMetadata()">
+                <input id="submitButton" type="submit" value="Fetch" class="button" >
             </form>
         </div>
-        <div class="container-content-navigation">
-            Navigation Section
+        <div class="container-content-navigation" id="container-content-navigation">
+            <h2 class="container-content-navigation-title" id="container-content-navigation-title"></h2>
+
+            <ul class="container-content-navigation-toc" id="container-content-navigation-toc"></ul>
+
         </div>
-        <div class="container-main-content">
-            Main Content 
+        <div class="container-main-content" id="container-main-content">
         </div>
     </div>
-    <script src="./js/index.js"></script>
 </body>
+<script src="./js/index.js"></script>
 </html>
